@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [1. Groovy Language Specification](Groovy Language Specification.md)
+* [1. Groovy Language Specification](chapter1.md)
   * [1.1. Syntax](chapter1/11-syntax.md)
     * [1.1.1. Comments](chapter1/11-syntax/111-comments.md)
 
