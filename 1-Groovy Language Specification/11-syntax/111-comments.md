@@ -29,5 +29,27 @@ println 1 /* one */ + 2 /* two */
 * 字段和属性定义
 * 方法定义
 
+尽管编译器不会抱怨GroovyDoc注释与上述语言元素没有关联，您应该在其前面加上注释来预先考虑它们的构造。
+
+```java
+/**
+ * A Class description
+ */
+class Person{
+    /** the name of the person */
+    String name
+    
+    /**
+     * Creates a greeting method for a certain person.
+     *
+     * @param otherPerson the person to greet
+     * @return a greeting message
+     */
+    String greet(String otherPerson){
+        "Hello ${otherPerson}"
+    }
+}
+```
+
 
 
