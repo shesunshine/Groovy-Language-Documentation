@@ -1,7 +1,9 @@
 {
-    "title": "a",
-    "description": "a",
-    "isbn": "978-3-16-148410-0",
-    "language": "zh-tw",
-    "direction": "ltr"
+    "styles": {
+        "website": "styles/website.css",
+        "ebook": "styles/ebook.css",
+        "pdf": "styles/pdf.css",
+        "mobi": "styles/mobi.css",
+        "epub": "styles/epub.css"
+     }
 }
