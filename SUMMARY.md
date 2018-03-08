@@ -1,7 +1,7 @@
 # Summary
 
-* [Introduction](README.md)
-* [1. Groovy Language Specification](1-Groovy-Language-Specification.md)
-  * [1.1. Syntax](1-Groovy Language Specification/11-syntax.md)
-    * [1.1.1. Comments](1-Groovy Language Specification/11-syntax/111-comments.md)
+* [简介](README.md)
+* [1. Groovy语言规范](1-Groovy-Language-Specification.md)
+  * [1.1. 句法规则](1-Groovy Language Specification/11-syntax.md)
+    * [1.1.1. 注解](1-Groovy Language Specification/11-syntax/111-comments.md)
 
