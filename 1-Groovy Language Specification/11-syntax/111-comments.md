@@ -62,5 +62,5 @@ GroovyDoc遵循与Java自己的JavaDoc相同的约定。所以你可以使用与
 println "Hello from the shebang line"
 ```
 
-`＃`字符必须是文件的第一个字符。任何缩进都会产生编译错误。
+ℹ️`＃`字符必须是文件的第一个字符。任何缩进都会产生编译错误。
 
