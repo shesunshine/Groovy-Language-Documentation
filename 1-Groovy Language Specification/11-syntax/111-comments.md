@@ -33,17 +33,17 @@ println 1 /* 1 */ + 2 /* 2 */
 
 ```java
 /**
- * A Class description
+ * 类说明
  */
 class Person{
-    /** the name of the person */
+    /** 人名 */
     String name
 
     /**
-     * Creates a greeting method for a certain person.
+     * 为某人创建一个见面的方法。
      *
-     * @param otherPerson the person to greet
-     * @return a greeting message
+     * @param otherPerson 要见的人
+     * @return 见面时的信息
      */
     String greet(String otherPerson){
         "Hello ${otherPerson}"
