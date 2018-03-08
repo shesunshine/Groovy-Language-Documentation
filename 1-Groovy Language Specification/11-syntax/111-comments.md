@@ -51,5 +51,16 @@ class Person{
 }
 ```
 
+GroovyDoc遵循与Java自己的JavaDoc相同的约定。所以你可以使用与JavaDoc相同的标签。
 
+##### Shebang 行
+
+除单行注释之外，还有一条特殊的行注释，通常称为UNIX系统可理解的shebang行，它允许脚本直接从命令行运行，前提是您已安装Groovy分发版，并且在`PATH`中`groovy`命令可用。
+
+```java
+#!/usr/bin/env groovy
+println "Hello from the shebang line"
+```
+
+`＃`字符必须是文件的第一个字符。任何缩进都会产生编译错误。
 
